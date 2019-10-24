@@ -18,7 +18,7 @@ key = ["gsettings", "get", "org.gnome.settings-daemon.plugins.power", "sleep-ina
 set_suspend = key[0]+" "+key[-1]+" "+(" ").join(key[2:4])
 get_suspend = (" ").join(key[0:4])
 
-# unused
+
 #def get_size():
 #    return int(subprocess.check_output(["/bin/bash", "-c", cmd]).decode("utf-8").split()[0])
 
